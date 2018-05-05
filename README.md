@@ -4,7 +4,7 @@ import csv
 import numpy as np
 from matplotlib import pyplot as plt
 
-# Mach hrs for December.
+# Mach hrs.
 filename = 'capacity.csv'
 with open(filename) as f:
     reader = csv.reader(f)
